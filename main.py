@@ -40,7 +40,7 @@ async def sendembed(ctx):
     await ctx.send(embed=embedded_msg)
 
 async def load():
-    for filename in os.listdir("phantom/cogs"):
+    for filename in os.listdir("./cogs"):
         if filename.endswith(".py"):
             await bot.load_extension(f"cogs.{filename[:-3]}")
 
