@@ -129,7 +129,6 @@ imagecodecs
 imageio 
 imagesize 
 imbalanced-learn 
-importlib-metadata 
 incremental 
 inflection==0.5.1
 iniconfig 
